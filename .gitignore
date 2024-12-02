@@ -1,1 +1,39 @@
+# Fichiers d'environnement
 .env
+
+# Modules Node.js
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Cache de package managers
+.pnpm-debug.log*
+.yarn/
+.pnp.*
+
+# Cache
+.cache/
+dist/
+
+# Fichiers système ou IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Dépendances locales (ex. : pour le test)
+.nyc_output/
+coverage/
+
+# Artéfacts de build
+build/
+
+# Fichiers de verrouillage ou de configuration spécifiques
+package-lock.json
+yarn.lock
